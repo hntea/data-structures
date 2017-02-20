@@ -5,6 +5,8 @@
  *      Author: hntea
  *
  *      邻接矩阵法图
+ *
+ *      缺点：占用大量内存。
  */
 
 #ifndef SRC_MGRAPH_MGRAPH_H_

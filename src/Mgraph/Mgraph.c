@@ -46,7 +46,7 @@ MGraph* MGraphCreate(MVertex** v,int n){
 			{
 				int i;
 				for(i=0;i<n;i++){
-					tmgraph->v[i] = v[i];
+					tmgraph->v[i] = v[i];							//存放顶点信息
 					tmgraph->matrix[i] = p+i*n;
 				}
 			}
